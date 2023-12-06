@@ -57,7 +57,7 @@ const OurBestSellers = (props) => {
                                 isClosable: true,
                             })
                         }>
-                            <button className="btn btn-primary" onClick={addItemToCartHandler}>Buy Now</button>
+                            <button className="btn btn-primary" onClick={addItemToCartHandler}>Add To Cart</button>
                         </div>
 
                     </div>
