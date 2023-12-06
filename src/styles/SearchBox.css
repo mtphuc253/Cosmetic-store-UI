@@ -49,6 +49,10 @@
     left: 11rem;
 }
 
+.searchBox {
+    margin-bottom: 10px;
+}
+
 /*  here height can be used be as gap  */
 .searchList {
     top: -32rem;
@@ -87,7 +91,7 @@
 .w40rem {
     width: 40rem;
     /* position: relative; */
-    top: 117rem;
+    top: 120rem;
     left: 11rem;
     position: absolute;
 

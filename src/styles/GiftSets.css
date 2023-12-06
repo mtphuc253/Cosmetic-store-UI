@@ -26,3 +26,26 @@
     font-size: 15px;
     font-weight: 500;
 }
+
+
+.sellerItems {
+    position: relative;
+    color: #000; /* Màu chữ ban đầu */
+    text-decoration: none; /* Loại bỏ underline mặc định */
+}
+
+/* Tạo đường line cho hover */
+.sellerItems::before {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Điều chỉnh vị trí của đường line */
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: #031D44; 
+    transition: width 0.3s ease; /* Tạo hiệu ứng chuyển động */
+}
+
+.sellerItems:hover::before {
+    width: 100%; /* Độ rộng tăng lên khi hover */
+}
